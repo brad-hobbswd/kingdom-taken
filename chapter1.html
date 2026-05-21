@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+The Quiet Listener | The Kingdom Taken
+</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+:root{
+
+--bg-main:#0c1015;
+--bg-alt:#151b22;
+--charcoal:#1d242d;
+
+--gold:#d8ae6a;
+
+--light:#f3ede4;
+
+--soft:#c4c0ba;
+
+--border:
+rgba(255,255,255,.08);
+
+}
+
+body{
+
+font-family:Georgia,serif;
+
+background:
+linear-gradient(
+180deg,
+#081018,
+#0c1015
+);
+
+color:var(--light);
+
+}
+
+.container{
+
+max-width:850px;
+
+margin:auto;
+
+padding:
+70px
+25px
+100px;
+
+}
+
+.chapter-top{
+
+text-align:center;
+
+padding:50px;
+
+margin-bottom:60px;
+
+border-radius:30px;
+
+background:
+linear-gradient(
+180deg,
+rgba(29,36,45,.6),
+rgba(21,27,34,.95)
+);
+
+border:
+1px solid var(--border);
+
+}
+
+.chapter-number{
+
+letter-spacing:4px;
+
+color:
+var(--gold);
+
+margin-bottom:15px;
+
+}
+
+.chapter-top h1{
+
+font-size:
+clamp(
+2.5rem,
+6vw,
+4rem
+);
+
+margin-bottom:20px;
+
+}
+
+.chapter-text{
+
+background:
+var(--charcoal);
+
+padding:50px;
+
+border-radius:30px;
+
+line-height:2.2;
+
+font-size:1.05rem;
+
+color:
+var(--soft);
+
+border:
+1px solid var(--border);
+
+}
+
+.chapter-text p{
+
+margin-bottom:28px;
+
+}
+
+.navigation{
+
+display:flex;
+
+justify-content:space-between;
+
+margin-top:60px;
+
+gap:20px;
+
+}
+
+.button{
+
+flex:1;
+
+text-align:center;
+
+padding:16px;
+
+border-radius:40px;
+
+text-decoration:none;
+
+background:
+var(--gold);
+
+color:black;
+
+font-weight:bold;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+
+<div class="chapter-top">
+
+<div class="chapter-number">
+
+CHAPTER ONE
+
+</div>
+
+<h1>
+
+The Quiet Listener
+
+</h1>
+
+</div>
+
+
+
+<div class="chapter-text">
+
+<p>
+
+Elias Vargas lived on the east side of the city where coffee shops lined the streets and apartment lights flickered like restless stars.
+
+</p>
+
+<p>
+
+He worked as a wood restoration specialist in a small shop tucked between a barber studio and an old vinyl store. Tourists walked by without noticing the place, though locals knew the workshop as a place where forgotten things came back to life beneath his hands.
+
+</p>
+
+<p>
+
+He lived quietly.
+
+Morning arrived before sunrise.
+
+Prayer came before conversation.
+
+Listening came before speaking.
+
+People around him respected him, though few truly knew him.
+
+</p>
+
+<p>
+
+What many never understood was one simple truth.
+
+Elias had spent years listening for God.
+
+</p>
+
+<p>
+
+One Friday evening the sky shifted into shades of gold and deep indigo as city noise echoed between buildings.
+
+Something changed.
+
+Pressure moved through the atmosphere.
+
+A pull rose from deep inside his chest.
+
+Not physical.
+
+Spiritual.
+
+</p>
+
+<p>
+
+Elias placed a hand over his chest and whispered one name.
+
+Jesus.
+
+</p>
+
+<p>
+
+Warmth moved through him instantly.
+
+Something holy stirred.
+
+Something unseen responded.
+
+A line had formed between two worlds and heaven itself seemed to press against the city around him.
+
+</p>
+
+<p>
+
+Everything was about to change.
+
+</p>
+
+</div>
+
+
+
+<div class="navigation">
+
+<a
+href="contents.html"
+class="button">
+
+Contents
+
+</a>
+
+
+<a
+href="chapter2.html"
+class="button">
+
+Next Chapter
+
+</a>
+
+</div>
+
+
+</div>
+
+
+
+<div id="footer"></div>
+
+<script>
+
+fetch("footer.html")
+
+.then(
+response=>response.text()
+)
+
+.then(data=>{
+
+document
+.getElementById(
+"footer"
+)
+
+.innerHTML=data;
+
+});
+
+</script>
+
+</body>
+</html>
