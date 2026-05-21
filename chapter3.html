@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+The Watchman in the City | The Kingdom Taken
+</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+:root{
+
+--bg-main:#0c1015;
+--bg-alt:#151b22;
+--charcoal:#1d242d;
+
+--gold:#d8ae6a;
+
+--light:#f3ede4;
+
+--soft:#c4c0ba;
+
+--border:
+rgba(255,255,255,.08);
+
+}
+
+body{
+
+font-family:Georgia,serif;
+
+background:
+linear-gradient(
+180deg,
+#081018,
+#0c1015
+);
+
+color:var(--light);
+
+}
+
+.container{
+
+max-width:850px;
+
+margin:auto;
+
+padding:
+70px
+25px
+100px;
+
+}
+
+.chapter-top{
+
+text-align:center;
+
+padding:50px;
+
+margin-bottom:60px;
+
+border-radius:30px;
+
+background:
+linear-gradient(
+180deg,
+rgba(29,36,45,.6),
+rgba(21,27,34,.95)
+);
+
+border:
+1px solid var(--border);
+
+}
+
+.chapter-number{
+
+letter-spacing:4px;
+
+margin-bottom:15px;
+
+color:var(--gold);
+
+}
+
+.chapter-top h1{
+
+font-size:
+clamp(
+2.5rem,
+6vw,
+4rem
+);
+
+}
+
+.chapter-text{
+
+background:
+var(--charcoal);
+
+padding:50px;
+
+border-radius:30px;
+
+line-height:2.2;
+
+font-size:1.05rem;
+
+border:
+1px solid var(--border);
+
+color:var(--soft);
+
+}
+
+.chapter-text p{
+
+margin-bottom:28px;
+
+}
+
+.navigation{
+
+display:flex;
+
+justify-content:space-between;
+
+gap:20px;
+
+margin-top:60px;
+
+}
+
+.button{
+
+flex:1;
+
+text-align:center;
+
+padding:16px;
+
+border-radius:40px;
+
+background:var(--gold);
+
+color:black;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<div class="container">
+
+
+<div class="chapter-top">
+
+<div class="chapter-number">
+
+CHAPTER THREE
+
+</div>
+
+<h1>
+
+The Watchman in the City
+
+</h1>
+
+</div>
+
+
+
+<div class="chapter-text">
+
+<p>
+
+Abram Torres spent his nights watching buildings, streets, and people moving beneath the city lights.
+
+</p>
+
+<p>
+
+Security cameras captured ordinary activity.
+
+People entered.
+
+People left.
+
+Traffic continued.
+
+Nothing unusual appeared on screens.
+
+</p>
+
+<p>
+
+Yet Abram sensed things cameras never recorded.
+
+</p>
+
+<p>
+
+Something always felt present beneath the visible world.
+
+Pressure.
+
+Movement.
+
+Disturbances hidden below ordinary life.
+
+</p>
+
+<p>
+
+One night while walking along a construction site, a strange vibration moved beneath his feet.
+
+Not machinery.
+
+Not traffic.
+
+Something different.
+
+</p>
+
+<p>
+
+The sensation spread through the air around him.
+
+Heavy.
+
+Purposeful.
+
+Watching.
+
+</p>
+
+<p>
+
+His grip tightened around his flashlight as shadows stretched between steel beams and unfinished walls.
+
+Fear briefly touched him.
+
+Instinct warned him that this was not physical danger.
+
+</p>
+
+<p>
+
+Abram stopped walking.
+
+He whispered one name.
+
+Jesus.
+
+</p>
+
+<p>
+
+Everything changed.
+
+Warmth replaced pressure.
+
+Strength rose through him.
+
+Understanding followed.
+
+</p>
+
+<p>
+
+The city was more than streets and buildings.
+
+A battle existed beneath everything around him.
+
+</p>
+
+<p>
+
+Abram resumed his patrol with different eyes.
+
+He now understood that watchmen were not called only to guard buildings.
+
+Some watchmen guarded something greater.
+
+</p>
+
+</div>
+
+
+
+<div class="navigation">
+
+<a
+href="chapter2.html"
+class="button">
+
+Previous
+
+</a>
+
+
+<a
+href="chapter4.html"
+class="button">
+
+Next
+
+</a>
+
+</div>
+
+
+</div>
+
+
+
+<div id="footer"></div>
+
+
+<script>
+
+fetch("footer.html")
+
+.then(
+response=>response.text()
+)
+
+.then(data=>{
+
+document
+.getElementById(
+"footer"
+)
+
+.innerHTML=data;
+
+});
+
+</script>
+
+</body>
+</html>
