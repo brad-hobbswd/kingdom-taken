@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+The Meeting in the Ruins | The Kingdom Taken
+</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+:root{
+
+--bg-main:#0c1015;
+--bg-alt:#151b22;
+--charcoal:#1d242d;
+
+--gold:#d8ae6a;
+
+--light:#f3ede4;
+
+--soft:#c4c0ba;
+
+--border:
+rgba(255,255,255,.08);
+
+}
+
+body{
+
+font-family:Georgia,serif;
+
+background:
+linear-gradient(
+180deg,
+#081018,
+#0c1015
+);
+
+color:var(--light);
+
+}
+
+.container{
+
+max-width:850px;
+
+margin:auto;
+
+padding:
+70px
+25px
+100px;
+
+}
+
+.chapter-top{
+
+text-align:center;
+
+padding:50px;
+
+margin-bottom:60px;
+
+border-radius:30px;
+
+background:
+linear-gradient(
+180deg,
+rgba(29,36,45,.6),
+rgba(21,27,34,.95)
+);
+
+border:
+1px solid var(--border);
+
+}
+
+.chapter-number{
+
+letter-spacing:4px;
+
+margin-bottom:15px;
+
+color:var(--gold);
+
+}
+
+.chapter-top h1{
+
+font-size:
+clamp(
+2.5rem,
+6vw,
+4rem
+);
+
+}
+
+.chapter-text{
+
+background:
+var(--charcoal);
+
+padding:50px;
+
+border-radius:30px;
+
+line-height:2.2;
+
+font-size:1.05rem;
+
+border:
+1px solid var(--border);
+
+color:var(--soft);
+
+}
+
+.chapter-text p{
+
+margin-bottom:28px;
+
+}
+
+.navigation{
+
+display:flex;
+
+justify-content:space-between;
+
+gap:20px;
+
+margin-top:60px;
+
+}
+
+.button{
+
+flex:1;
+
+text-align:center;
+
+padding:16px;
+
+border-radius:40px;
+
+background:var(--gold);
+
+color:black;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<div class="container">
+
+
+<div class="chapter-top">
+
+<div class="chapter-number">
+
+CHAPTER FOUR
+
+</div>
+
+<h1>
+
+The Meeting in the Ruins
+
+</h1>
+
+</div>
+
+
+
+<div class="chapter-text">
+
+<p>
+
+Weeks passed after the first stirrings began.
+
+Elias could no longer ignore the pull drawing him beyond familiar streets and routines.
+
+</p>
+
+<p>
+
+City lights flashed.
+
+Music drifted through the evening air.
+
+Crowds moved between restaurants and storefronts.
+
+Something deeper demanded his attention.
+
+</p>
+
+<p>
+
+The pull guided him through narrow streets and into an abandoned industrial district.
+
+Broken windows reflected distant lights.
+
+Steel structures leaned beneath years of neglect.
+
+Silence settled over the forgotten place.
+
+</p>
+
+<p>
+
+Yet the atmosphere felt alive.
+
+Expectation filled the air.
+
+</p>
+
+<p>
+
+Near shattered concrete and rusted beams stood another man.
+
+Matthias looked up from scattered notes and worn manuscripts.
+
+Recognition passed between them immediately.
+
+Not familiarity.
+
+Something deeper.
+
+</p>
+
+<p>
+
+Neither understood fully.
+
+Both knew they had been brought there.
+
+</p>
+
+<p>
+
+Footsteps echoed from nearby shadows.
+
+Abram emerged from darkness carrying his flashlight.
+
+His eyes moved between both men.
+
+No surprise crossed his face.
+
+Only understanding.
+
+</p>
+
+<p>
+
+Stories unfolded.
+
+Pressure.
+
+Stirrings.
+
+Strange encounters.
+
+Strength arriving after speaking the name Jesus.
+
+</p>
+
+<p>
+
+Separate experiences suddenly formed one larger picture.
+
+None of them had been called alone.
+
+</p>
+
+<p>
+
+Something had begun moving through the city.
+
+Heaven had started gathering watchmen.
+
+</p>
+
+<p>
+
+Three paths had finally become one.
+
+</p>
+
+</div>
+
+
+
+<div class="navigation">
+
+<a
+href="chapter3.html"
+class="button">
+
+Previous
+
+</a>
+
+
+<a
+href="chapter5.html"
+class="button">
+
+Next
+
+</a>
+
+</div>
+
+
+</div>
+
+
+
+<div id="footer"></div>
+
+
+<script>
+
+fetch("footer.html")
+
+.then(
+response=>response.text()
+)
+
+.then(data=>{
+
+document
+.getElementById(
+"footer"
+)
+
+.innerHTML=data;
+
+});
+
+</script>
+
+</body>
+</html>
